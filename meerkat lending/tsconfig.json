@@ -31,9 +31,9 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "meerkat lending/.next/types/**/*.ts",
     "meerkat lending/next-env.d.ts",
-    ".next/types/**/*.ts"
+    "meerkat lending/**/*.ts",  // Asegúrate de incluir solo lo necesario
+    "meerkat lending/**/*.tsx"  // Asegúrate de incluir solo lo necesario
   ],
   "exclude": [
     "node_modules"
