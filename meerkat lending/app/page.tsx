@@ -1,3 +1,8 @@
+import LandingPage from "../components/landing"
+
+export const dynamic = 'force-dynamic';
+
+
 export default function Home() {
-  return <h1>✅ Página cargada correctamente</h1>;
+  return <LandingPage />
 }
