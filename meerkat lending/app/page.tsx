@@ -1,5 +1,3 @@
-import LandingPage from "../components/landing"
-
 export default function Home() {
-  return <LandingPage />
+  return <h1>✅ Página cargada correctamente</h1>;
 }
